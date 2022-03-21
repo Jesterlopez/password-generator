@@ -1,5 +1,5 @@
 {
-    "name": "generator-password",
+    "name": "password-generator",
     "version": "1.0.0",
     "scripts": {
         "dev": "vite",

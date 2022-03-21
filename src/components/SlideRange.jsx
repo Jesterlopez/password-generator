@@ -24,8 +24,8 @@ export default function SlideRange() {
           onChange={handleChange}
           type="range"
           min="8"
-          max="32"
-          className="h-2 bg-slate-300 rounded-md appearance-none w-full cursor-pointer"
+          max="24"
+          className="h-2 bg-slate-300 rounded-md appearance-none w-full cursor-e-resize "
         />
       </div>
     </div>

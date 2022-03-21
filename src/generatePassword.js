@@ -17,6 +17,7 @@ export const generatePassword = (config) => {
 
 const getSettings = (config) => {
     const { numbers, lower, upper, symbols, length } = config
+
     const setting = []
 
     if (numbers) {
@@ -54,4 +55,12 @@ const getLettersUpperCase = () => {
 
 const getSymbols = () => {
     return symbols[Math.floor(Math.random() * symbols.length)]
+}
+
+export const validationInputChecked = (config) => {
+    const { numbers, lower, upper, symbols, length } = config
+    if (numbers === true || lower === true || upper === true || symbols === true) {
+        return true
+    }
+    return false
 }
